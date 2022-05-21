@@ -1,10 +1,10 @@
 html {
-	font-size: 14px;
+	font-size: 13px;
 }
 
 body {
 	min-height: 75rem;
-  padding-top: 4rem;
+  /*padding-top: 4rem;*/
   padding-bottom: 12rem;
 }
 
@@ -84,4 +84,46 @@ code {
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
   color: #19afd9;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hljs-number {
+  color: #6c757d;
+}
+
+.hljs-string {
+  color: #dc3545;
+}
+
+.hljs-comment {
+  color: #8d9bc0;
+}
+
+.hljs-keyword {
+  color: #0a58ca;
+}
+
+.hljs-params {
+  color: #218f21;
+}
+
+.hljs-title {
+  color: #0d6efd;
+}
+
+.hljs-function {
+  color: brown;
 }
