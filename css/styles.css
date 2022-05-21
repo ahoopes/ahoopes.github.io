@@ -1,16 +1,15 @@
 html {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 body {
-	min-height: 75rem;
-  /*padding-top: 4rem;*/
+  min-height: 75rem;
   padding-bottom: 12rem;
 }
 
 body, p {
   color: #515151;
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+  font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
 .container {
@@ -24,17 +23,17 @@ pre {
 }
 
 a {
-	color: #2b7e95;
-	text-decoration: none;
+  color: #2b7e95;
+  text-decoration: none;
 }
 
 a:hover {
-	color: #042d38;
-	text-decoration: none;
+  color: #042d38;
+  text-decoration: none;
 }
 
 code {
-	color: #ce5491;
+  color: #ce5491;
 }
 
 .header-link-button {
