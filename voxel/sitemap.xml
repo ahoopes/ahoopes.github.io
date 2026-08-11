@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://dalcalab.github.io/voxel/</loc>
+         <loc>https://ahoopes.github.io/voxel/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/labels/</loc>
+         <loc>https://ahoopes.github.io/voxel/labels/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/meshes/</loc>
+         <loc>https://ahoopes.github.io/voxel/meshes/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/transforms/</loc>
+         <loc>https://ahoopes.github.io/voxel/transforms/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/visualization/</loc>
+         <loc>https://ahoopes.github.io/voxel/visualization/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/volumes/</loc>
+         <loc>https://ahoopes.github.io/voxel/volumes/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/acquisition-geometry/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/acquisition-geometry/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/affine-matrix/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/affine-matrix/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/bounding-box/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/bounding-box/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/label-lookup/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/label-lookup/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/label/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/label/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/mesh/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/mesh/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/orientation/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/orientation/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/space/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/space/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/vector-field/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/vector-field/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/volume/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/volume/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/classes/warp/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/classes/warp/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/acquisition/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/acquisition/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/affine/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/affine/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/bounds/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/bounds/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/filters/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/filters/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/io/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/io/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/labels/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/labels/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/morphology/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/morphology/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/snapshots/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/snapshots/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/volume/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/volume/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
     <url>
-         <loc>https://dalcalab.github.io/voxel/reference/functions/warp/</loc>
+         <loc>https://ahoopes.github.io/voxel/reference/functions/warp/</loc>
          <lastmod>2026-08-11</lastmod>
     </url>
 </urlset>
