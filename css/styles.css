@@ -2,6 +2,26 @@ html {
   font-size: 13px;
 }
 
+/* main page (index.html) only — scoped via class on <html> */
+html.home {
+  font-size: 10px;
+}
+
+.home body,
+.home p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.home .container {
+  max-width: 1000px !important;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home .page-header h1 {
+  font-size: 2rem;
+}
+
 body {
   min-height: 75rem;
   padding-bottom: 12rem;
@@ -48,39 +68,37 @@ code {
   margin-top: 20px;
 }
 
-.navbar {
-  background-color: #000000;
-  font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 0.875rem;
-  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.05);
+.paper > * {
+  margin-bottom: 0;
+  line-height: 1.5;
 }
 
-.navbar .navbar-brand {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+.page-header h1 {
+  line-height: 1.5em;
+  margin-bottom: 0;
 }
 
-.navbar .logo-text {
-  color: #19afd9;
-  font-weight: 700;
-  font-size: 1.475rem;
-  line-height: 1rem;
-  text-decoration: none;
+.page-header p {
+  line-height: 1.5em;
+  margin-bottom: 0;
+  color: gray;
 }
 
-.navbar .nav-item .nav-link {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  color: #b3b3b3;
-  text-decoration: none;
-  transition: all 0.2s ease;
+.page-header p.affiliation {
+  line-height: 1.2em;
 }
 
-.navbar .nav-item.dropdown.show .nav-link,
-.navbar .nav-item .nav-link:hover,
-.navbar .nav-item .nav-link.active {
-  color: #19afd9;
+.page-header .header-links {
+  line-height: 1.5em;
+  color: lightgray;
+}
+
+.page-header .header-links .header-link-button {
+  padding-right: 4px;
+}
+
+.section-heading {
+  margin-top: 35px;
 }
 
 .video-container {

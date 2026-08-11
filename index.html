@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="home">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,102 +18,126 @@
 
     <title>Andrew Hoopes</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-<main role="main" class="container">
+<main class="container">
 
-<h1 class="mt-5" style="line-height: 1.5em; padding-top: 0; margin-bottom: 0;">Andrew Hoopes</h1>
-<p style="line-height: 1.2em; margin-bottom: 0; padding-top: 0; color: gray;">PhD Student, Computer Science & Artificial Intelligence Lab, EECS, MIT</p>
-<p style="line-height: 1.5em; margin-bottom: 0; padding-top: 0; color: gray;">Martinos Center for Biomedical Imaging, Massachusetts General Hospital</p>
-<div style="line-height: 1.5em; margin-bottom: 0; padding-top: 0; color: lightgray;">
-    <a href="https://github.com/ahoopes" class="header-link-button" style="padding-right: 4px;">GitHub</a>|
-    <a href="https://scholar.google.com/citations?user=_OVlcIUAAAAJ" class="header-link-button">Google Scholar</a>
-</div>
+<header class="page-header mt-5">
+    <h1>Andrew Hoopes</h1>
+    <p class="affiliation">PhD Student, Computer Science & Artificial Intelligence Lab, EECS, MIT</p>
+    <p>Martinos Center for Biomedical Imaging, Massachusetts General Hospital</p>
+    <div class="header-links">
+        <a href="https://github.com/ahoopes" class="header-link-button">GitHub</a>|
+        <a href="https://scholar.google.com/citations?user=_OVlcIUAAAAJ" class="header-link-button">Google Scholar</a>
+    </div>
+</header>
 
 
 <!-------------------------------- PUBLICATIONS -------------------------------->
 
 
-<h4 style="margin-top: 35px;">Publications</h4>
+<h4 class="section-heading">Publications</h4>
 
 <div class="paper">
-<p style="margin-bottom: 0; line-height: 1.5;"><b>SynthStrip: Skull-Stripping for Any Brain Image</b></p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">Andrew Hoopes, Jocelyn S. Mora, Adrian V. Dalca, Bruce Fischl*, Malte Hoffmann*</p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;"><em>NeuroImage 260, 119474. 2022.</em></p>
-<div style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">
-    <a href="https://www.sciencedirect.com/science/article/pii/S1053811922005900" class="link-button">Paper</a>
-    <a href="https://surfer.nmr.mgh.harvard.edu/docs/synthstrip" class="link-button">Website</a>
-</div>
+<p><b>Automated EEG Classification to Track Levels of Consciousness</b> (<a href="https://www.medrxiv.org/content/10.64898/2026.06.18.26355981.full.pdf">paper</a>)</p>
+<p>William H. Curley*, Andrew Hoopes*, David W. Zhou, Mary M. Conte, Jonathan D. Victor, Nicholas D. Schiff, Brian L. Edlow</p>
+<p><em>medRxiv preprint. 2026.</em></p>
 </div>
 
 <div class="paper">
-<p style="margin-bottom: 0; line-height: 1.5;"><b>Learning the Effect of Registration Hyperparameters with HyperMorph</b></p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">Andrew Hoopes, Malte Hoffmann, Douglas Greve, John Guttag, Bruce Fischl, Adrian Dalca</p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;"><em>MELBA: Journal of Machine Learning for Biomedical Imaging. 2022.</em></p>
-<div style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">
-    <a href="https://arxiv.org/pdf/2203.16680.pdf" class="link-button">Paper</a>
-    <a href="https://ahoopes.github.io/hypermorph" class="link-button">Website</a>
-    <a href="https://github.com/voxelmorph/voxelmorph/blob/dev/scripts/tf/train_hypermorph.py" class="link-button">Code</a>
-</div>
+<p><b>Unified Brain Surface and Volume Registration</b> (<a href="https://openreview.net/pdf?id=7FvUJu63zq">paper</a>)</p>
+<p>S. Mazdak Abulnaga, Andrew Hoopes, Malte Hoffmann, Robin Magnet, Maks Ovsjanikov, Lilla Zöllei, John Guttag, Bruce Fischl, Adrian Dalca</p>
+<p><em>In proceedings of ICLR: International Conference on Learning Representations. 2026.</em></p>
 </div>
 
 <div class="paper">
-<p style="margin-bottom: 0; line-height: 1.5;"><b>TopoFit: Rapid Reconstruction of Topologically-Correct Cortical Surfaces</b></p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">Andrew Hoopes, Juan Eugenio Iglesias, Bruce Fischl, Douglas Greve*, Adrian Dalca*</p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;"><em>In proceedings of MIDL: Medical Imaging with Deep Learning. 2022.</em></p>
-<div style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">
-    <a href="https://openreview.net/pdf?id=-JiHeZNDY3a" class="link-button">Paper</a>
-    <a href="https://github.com/ahoopes/topofit" class="link-button">Code</a>
-</div>
+<p><b>AtlasMorph: Learning Conditional Deformable Templates for Brain MRI</b> (<a href="https://www.sciencedirect.com/science/article/pii/S1361841525004396">paper</a>)</p>
+<p>Marianne Rakic, Andrew Hoopes, S. Mazdak Abulnaga, Mert R. Sabuncu, John V. Guttag, Adrian V. Dalca</p>
+<p><em>Medical Image Analysis 110, 103893. 2026.</em></p>
 </div>
 
 <div class="paper">
-<p style="margin-bottom: 0; line-height: 1.5;"><b>Hypermorph: Amortized Hyperparameter Learning for Image Registration</b></p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">Andrew Hoopes, Malte Hoffmann, Bruce Fischl, John Guttag, and Adrian Dalca</p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;"><em>In proceedings of IPMI: International Conference on Information Processing and Medical Imaging, 12729, pp. 3-17. 2021.</em></p>
-<div style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">
-    <a href="https://arxiv.org/pdf/2101.01035.pdf" class="link-button">Paper</a>
-    <a href="https://ahoopes.github.io/hypermorph" class="link-button">Website</a>
-    <a href="https://github.com/voxelmorph/voxelmorph/blob/dev/scripts/tf/train_hypermorph.py" class="link-button">Code</a>
-</div>
+<p><b>MultiMorph: On-Demand Atlas Construction</b> (<a href="https://openaccess.thecvf.com/content/CVPR2025/html/Abulnaga_MultiMorph_On-demand_Atlas_Construction_CVPR_2025_paper.html">paper</a>, <a href="https://github.com/mabulnaga/multimorph">code</a>)</p>
+<p>S. Mazdak Abulnaga, Andrew Hoopes, Neel Dey, Malte Hoffmann, Marianne Rakic, Bruce Fischl, John Guttag, Adrian Dalca</p>
+<p><em>In proceedings of CVPR: IEEE Conference on Computer Vision and Pattern Recognition. 2025.</em></p>
 </div>
 
 <div class="paper">
-<p style="margin-bottom: 0; line-height: 1.5;"><b>A Deep Learning Toolbox for Automatic Segmentation of Subcortical Limbic Structures from MRI Images</b></p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">Douglas Greve, Benjamin Billot, Devani Cordero, Andrew Hoopes, Malte Hoffmann, Adrian Dalca, Bruce Fischl, Juan Eugenio Iglesias, Jean Augustinack</p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;"><em>NeuroImage 244, 118610. 2021.</em></p>
-<div style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">
-    <a href="https://www.sciencedirect.com/science/article/pii/S1053811921008831" class="link-button">Paper</a>
-    <a href="https://github.com/freesurfer/freesurfer/tree/dev/mri_sclimbic_seg" class="link-button">Code</a>
-</div>
+<p><b>VoxelPrompt: A Vision Agent for End-to-End Medical Image Analysis</b> (<a href="https://arxiv.org/pdf/2410.08397">paper</a>)</p>
+<p>Andrew Hoopes, Neel Dey, Victor Ion Butoi, John V. Guttag, Adrian V. Dalca</p>
+<p><em>arXiv preprint arXiv:2410.08397. 2024.</em></p>
 </div>
 
 <div class="paper">
-<p style="margin-bottom: 0; line-height: 1.5;"><b>A Longitudinal Method for Simultaneous Whole-Brain and Lesion Segmentation in Multiple Sclerosis</b></p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">Stefano Cerri, Andrew Hoopes, Douglas Greve, Mark Mühlau, Koen Van Leemput</p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;"><em>Machine Learning in Clinical Neuroimaging and Radiogenomics in Neuro-oncology, pp. 119-128. 2020.</em></p>
-<div style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">
-    <a href="https://arxiv.org/abs/2008.05117.pdf" class="link-button">Paper</a>
-</div>
+<p><b>Anatomy-Aware and Acquisition-Agnostic Joint Registration with SynthMorph</b> (<a href="https://doi.org/10.1162/imag_a_00197">paper</a>, <a href="https://w3id.org/synthmorph">website</a>)</p>
+<p>Malte Hoffmann, Andrew Hoopes, Douglas N. Greve, Bruce Fischl, Adrian V. Dalca</p>
+<p><em>Imaging Neuroscience 2, 1-33. 2024.</em></p>
 </div>
 
 <div class="paper">
-<p style="margin-bottom: 0; line-height: 1.5;"><b>PSACNN: Pulse Sequence Adaptive Fast Whole Brain Segmentation</b></p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">Amod Jog, Andrew Hoopes, Douglas Greve, Koen Van Leemput, Bruce Fischl</p>
-<p style="margin-bottom: 0; padding-top: 0; line-height: 1.5;"><em>NeuroImage 199, 553-569. 2019.</em></p>
-<div style="margin-bottom: 0; padding-top: 0; line-height: 1.5;">
-    <a href="https://arxiv.org/abs/1901.05992.pdf" class="link-button">Paper</a>
-    <a href="https://github.com/freesurfer/freesurfer/tree/dev/psacnn_brain_segmentation" class="link-button">Code</a>
+<p><b>Synthetic Data in Generalizable, Learning-Based Neuroimaging</b> (<a href="https://doi.org/10.1162/imag_a_00337">paper</a>)</p>
+<p>Karthik Gopinath*, Andrew Hoopes*, et al.</p>
+<p><em>Imaging Neuroscience 2. 2024.</em></p>
 </div>
+
+<div class="paper">
+<p><b>An Open-Source Tool for Longitudinal Whole-Brain and White Matter Lesion Segmentation</b> (<a href="https://www.sciencedirect.com/science/article/pii/S2213158223000438">paper</a>, <a href="https://github.com/freesurfer/samseg">code</a>)</p>
+<p>Stefano Cerri, Douglas N. Greve, Andrew Hoopes, Henrik Lundell, Hartwig R. Siebner, Mark Mühlau, Koen Van Leemput</p>
+<p><em>NeuroImage: Clinical 38, 103354. 2023.</em></p>
+</div>
+
+<div class="paper">
+<p><b>Anatomy-Specific Acquisition-Agnostic Affine Registration Learned from Fictitious Images</b> (<a href="https://doi.org/10.1117/12.2653251">paper</a>, <a href="https://w3id.org/synthmorph">website</a>)</p>
+<p>Malte Hoffmann, Andrew Hoopes, Bruce Fischl, Adrian V. Dalca</p>
+<p><em>In proceedings of SPIE Medical Imaging: Image Processing, 12464, 1246402. 2023.</em></p>
+</div>
+
+<div class="paper">
+<p><b>SynthStrip: Skull-Stripping for Any Brain Image</b> (<a href="https://www.sciencedirect.com/science/article/pii/S1053811922005900">paper</a>, <a href="https://surfer.nmr.mgh.harvard.edu/docs/synthstrip">website</a>)</p>
+<p>Andrew Hoopes, Jocelyn S. Mora, Adrian V. Dalca, Bruce Fischl*, Malte Hoffmann*</p>
+<p><em>NeuroImage 260, 119474. 2022.</em></p>
+</div>
+
+<div class="paper">
+<p><b>Learning the Effect of Registration Hyperparameters with HyperMorph</b> (<a href="https://arxiv.org/pdf/2203.16680.pdf">paper</a>, <a href="https://ahoopes.github.io/hypermorph">website</a>, <a href="https://github.com/voxelmorph/voxelmorph/blob/dev/scripts/tf/train_hypermorph.py">code</a>)</p>
+<p>Andrew Hoopes, Malte Hoffmann, Douglas Greve, John Guttag, Bruce Fischl, Adrian Dalca</p>
+<p><em>MELBA: Journal of Machine Learning for Biomedical Imaging. 2022.</em></p>
+</div>
+
+<div class="paper">
+<p><b>TopoFit: Rapid Reconstruction of Topologically-Correct Cortical Surfaces</b> (<a href="https://openreview.net/pdf?id=-JiHeZNDY3a">paper</a>, <a href="https://github.com/ahoopes/topofit">code</a>)</p>
+<p>Andrew Hoopes, Juan Eugenio Iglesias, Bruce Fischl, Douglas Greve*, Adrian Dalca*</p>
+<p><em>In proceedings of MIDL: Medical Imaging with Deep Learning. 2022.</em></p>
+</div>
+
+<div class="paper">
+<p><b>Hypermorph: Amortized Hyperparameter Learning for Image Registration</b> (<a href="https://arxiv.org/pdf/2101.01035.pdf">paper</a>, <a href="https://ahoopes.github.io/hypermorph">website</a>, <a href="https://github.com/voxelmorph/voxelmorph/blob/dev/scripts/tf/train_hypermorph.py">code</a>)</p>
+<p>Andrew Hoopes, Malte Hoffmann, Bruce Fischl, John Guttag, and Adrian Dalca</p>
+<p><em>In proceedings of IPMI: International Conference on Information Processing and Medical Imaging, 12729, pp. 3-17. 2021.</em></p>
+</div>
+
+<div class="paper">
+<p><b>A Deep Learning Toolbox for Automatic Segmentation of Subcortical Limbic Structures from MRI Images</b> (<a href="https://www.sciencedirect.com/science/article/pii/S1053811921008831">paper</a>, <a href="https://github.com/freesurfer/freesurfer/tree/dev/mri_sclimbic_seg">code</a>)</p>
+<p>Douglas Greve, Benjamin Billot, Devani Cordero, Andrew Hoopes, Malte Hoffmann, Adrian Dalca, Bruce Fischl, Juan Eugenio Iglesias, Jean Augustinack</p>
+<p><em>NeuroImage 244, 118610. 2021.</em></p>
+</div>
+
+<div class="paper">
+<p><b>A Longitudinal Method for Simultaneous Whole-Brain and Lesion Segmentation in Multiple Sclerosis</b> (<a href="https://arxiv.org/abs/2008.05117.pdf">paper</a>)</p>
+<p>Stefano Cerri, Andrew Hoopes, Douglas Greve, Mark Mühlau, Koen Van Leemput</p>
+<p><em>Machine Learning in Clinical Neuroimaging and Radiogenomics in Neuro-oncology, pp. 119-128. 2020.</em></p>
+</div>
+
+<div class="paper">
+<p><b>PSACNN: Pulse Sequence Adaptive Fast Whole Brain Segmentation</b> (<a href="https://arxiv.org/abs/1901.05992.pdf">paper</a>, <a href="https://github.com/freesurfer/freesurfer/tree/dev/psacnn_brain_segmentation">code</a>)</p>
+<p>Amod Jog, Andrew Hoopes, Douglas Greve, Koen Van Leemput, Bruce Fischl</p>
+<p><em>NeuroImage 199, 553-569. 2019.</em></p>
 </div>
 
 </main>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
 </body>
 </html>
