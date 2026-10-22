@@ -4,7 +4,7 @@ html {
 
 /* main page (index.html) only — scoped via class on <html> */
 html.home {
-  font-size: 10px;
+  font-size: 12.5px;
 }
 
 .home body,
